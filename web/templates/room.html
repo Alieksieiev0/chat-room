@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h1>Chat Room</h1>
+    <div id="output">
+    </div>
+    <div id="username-container">
+        <input id="username-input"/>
+        <label for="username-input">Enter Name</label>
+        <button onclick="submitUsername()">Submit Username</button>
+    </div>
+    <div id="chat-container" style="display:none">
+        <div id="messages-container">
+        </div>
+        <input id="chat-input"/>
+        <button onclick="sendMessage()">Send Message</button>
+        <button onclick="leaveRoom()">Leave Room</button>
+    </div>
+</body>
+<script>
+
+    var exports = {};
+    console.log(1);
+</script>
+<script type="text/javascript" src="/script/websocketHandler.js"></script>
+
+</html>
+

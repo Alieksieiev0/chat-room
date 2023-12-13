@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h1>Chat</h1>
+    <div id="username-container">
+        <h2>Enter Username</h2>
+        <input id="username-input"/>
+        <button onclick="saveUsername()">Save Username</button>
+    </div>
+    <div id="room-container" style="display:none">
+        <h2>Available Rooms</h2>
+        <button onclick="createRoom()">Create Room</button>
+        <div id="rooms">
+        </div>
+    </div>
+    <div id="chat-container" style="display:none">
+        <div id="messages-container">
+        </div>
+        <input id="chat-input"/>
+        <button onclick="sendMessage()">Send Message</button>
+        <button onclick="leaveRoom()">Leave Room</button>
+    </div>
+</body>
+<script>
+    var exports = {};
+</script>
+<script type="text/javascript" src="/script/index.js"></script>
+
+</html>
